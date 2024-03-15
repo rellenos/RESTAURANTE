@@ -5,138 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
     <link rel="icon" type="image/x-icon" href="./images/ensalada.jpg">
-    <style>ul{list-style-type: none;}</style>
+    <style>ul{list-style-type:none;}</style>
 </head>
 <body>
     <header>
-        <h1>RESTAURANTE</h1>
+        <h1 style="text-align:center; color:green;">RESTAURANTE</h1>
     </header>
     
     <div class="menu">
         <nav>
-            <H2>Primeros platos</H2>
+            <H2 id="primeros">Primeros platos</H2>
             <ul>
-                <li><a href="./primeros platos/croquetas.html">
-                    <abbr title="Croquetas">
-                        <img src="./images/croquetas.jpg" style="width:128px;" alt="Croquetas">
-                    </abbr>
-                </a></li>
+                <li>
+                    <a href="./primeros platos/croquetas.html">
+                        <abbr title="Croquetas">
+                            <img src="./images/croquetas.jpg" style="width:128px;" alt="Croquetas">
+                        </abbr>
+                    </a>
+                    <a href="/primeros platos/embutidos.html">
+                        <abbr title="Embutidos variados">
+                            <img src="./images/embutidos.jpg" style="width:128px;" alt="Embutidos variados">
+                        </abbr>
+                    </a>
+                </li>
 
-                <li><a href="/primeros platos/embutidos.html">
-                    <abbr title="Embutidos variados">
-                        <img src="./images/embutidos.jpg" style="width:128px;" alt="Embutidos variados">
-                    </abbr>
-                </a></li>
-
-                <li><a href="/primeros platos/ensalada.html">
-                    <abbr title="Ensalada">
-                        <img src="./images/ensalada.jpg" style="width:128px;" alt="Ensalada">
-                    </abbr>
-                </a></li>
-
-                <li><a href="/primeros platos/tortilla.html">
-                    <abbr title="Tortilla de patatas">
-                        <img src="./images/tortilla.jpg" style="width:128px;" alt="Tortilla de patatas">
-                    </abbr>
-                </a></li>
-            </ul>
-        
-
-            <H2>Segundos platos</H2>
-            <ul>
-                <li><a href="./segundos platos/entrecot.html">
-                    <abbr title="Entrecot a la brasa">
-                        <img src="./images/entrecot.jpg" style="width:128px;" alt="Entrecot a la brasa">
-                    </abbr>
-                </a></li>
-
-                <li><a href="./segundos platos/merluza.html">
-                    <abbr title="Merluza al horno">
-                        <img src="./images/merluza.jpg" style="width:128px;" alt="Merluza al horno">
-                    </abbr>
-                </a></li>
-
-                <li><a href="./segundos platos/pollo.html">
-                    <abbr title="Pollo asado">
-                        <img src="./images/pollo.jpg" style="width:128px;" alt="Pollo asado">
-                    </abbr>
-                </a></li>
-
-                <li><a href="./segundos platos/sopa.html">
-                    <abbr title="Cocido">
-                        <img src="images/sopa.jpeg" style="width:128px;" alt="Cocido">
-                    </abbr>
-                </a></li>
+                <li>
+                    <a href="/primeros platos/ensalada.html">
+                        <abbr title="Ensalada">
+                            <img src="./images/ensalada.jpg" style="width:128px;" alt="Ensalada">
+                        </abbr>
+                    </a>
+                    <a href="/primeros platos/tortilla.html">
+                        <abbr title="Tortilla de patatas">
+                            <img src="./images/tortilla.jpg" style="width:128px;" alt="Tortilla de patatas">
+                        </abbr>
+                    </a>
+                </li>
             </ul>
 
-            <H2>Postres</H2>
+            <H2 id="segundos">Segundos platos</H2>
             <ul>
-                <li><a href="./postres/helado.html">
-                    <abbr title="Helado variado">
-                        <img src="images/helado.jpg" style="width:128px;" alt="Helado variado">
-                    </abbr>
-                </a></li>
+                <li>
+                    <a href="./segundos platos/entrecot.html">
+                        <abbr title="Entrecot a la brasa">
+                            <img src="./images/entrecot.jpg" style="width:128px;" alt="Entrecot a la brasa">
+                        </abbr>
+                    </a>
+                    <a href="./segundos platos/merluza.html">
+                        <abbr title="Merluza al horno">
+                            <img src="./images/merluza.jpg" style="width:128px;" alt="Merluza al horno">
+                        </abbr>
+                    </a>
+                </li>
 
-                <li><a href="./postres/fresas.html">
-                    <abbr title="Fresas con nata">
-                        <img src="images/fresas.jpg" style="width:128px;" alt="Fresas con nata">
-                    </abbr>
-                </a></li>
+                <li>
+                    <a href="./segundos platos/pollo.html">
+                        <abbr title="Pollo asado">
+                            <img src="./images/pollo.jpg" style="width:128px;" alt="Pollo asado">
+                        </abbr>
+                    </a>
 
-                <li><a href="./postres/tarta.html">
-                    <abbr title="Tarta de queso">
-                        <img src="images/tarta.jpg" style="width:128px;" alt="Tarta de queso">
-                    </abbr>
-                </a></li>
-
-                <li><a href="./postres/tiramisu.html">
-                    <abbr title="Tiramisú">
-                        <img src="images/tiramisu.jpg" style="width:128px;" alt="Tiramisú">
-                    </abbr>
-                </a></li>
+                    <a href="./segundos platos/sopa.html">
+                        <abbr title="Cocido">
+                            <img src="images/sopa.jpeg" style="width:128px;" alt="Cocido">
+                        </abbr>
+                    </a>
+                </li>
             </ul>
 
-            <H2>Bebidas</H2>
+            <H2 id="postres">Postres</H2>
             <ul>
-                <li><a href="./bebidas/agua.html">
-                    <abbr title="Agua">
-                        <img src="images/agua.jpg" style="width:128px;" alt="Agua">
-                    </abbr>
-                </a></li>
+                <li>
+                    <a href="./postres/helado.html">
+                        <abbr title="Helado variado">
+                            <img src="images/helado.jpg" style="width:128px;" alt="Helado variado">
+                        </abbr>
+                    </a>
 
-                <li><a href="./bebidas/refresco.html">
-                    <abbr title="Refresco">
-                        <img src="images/refrescos.jpg" style="width:128px;" alt="Refresco">
-                    </abbr>
-                </a></li>
+                    <a href="./postres/fresas.html">
+                        <abbr title="Fresas con nata">
+                            <img src="images/fresas.jpg" style="width:128px;" alt="Fresas con nata">
+                        </abbr>
+                    </a>
+                </li>
 
-                <li><a href="./bebidas/vino.html">
-                    <abbr title="Vino">
-                        <img src="images/vino.jpg" style="width:128px;" alt="Vino">
-                    </abbr>
-                </a></li>
+                <li>
+                    <a href="./postres/tarta.html">
+                        <abbr title="Tarta de queso">
+                            <img src="images/tarta.jpg" style="width:128px;" alt="Tarta de queso">
+                        </abbr>
+                    </a>
+
+                    <a href="./postres/tiramisu.html">
+                        <abbr title="Tiramisú">
+                            <img src="images/tiramisu.jpg" style="width:128px;" alt="Tiramisú">
+                        </abbr>
+                    </a>
+                </li>
+            </ul>
+
+            <H2 id="bebidas">Bebidas</H2>
+            <ul>
+                <li>
+                    <a href="./bebidas/agua.html">
+                        <abbr title="Agua">
+                            <img src="images/agua.jpg" style="width:128px;" alt="Agua">
+                        </abbr>
+                    </a>
+                
+                    <a href="./bebidas/refresco.html">
+                        <abbr title="Refresco">
+                            <img src="images/refrescos.jpg" style="width:128px;" alt="Refresco">
+                        </abbr>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./bebidas/vino.html">
+                        <abbr title="Vino">
+                            <img src="images/vino.jpg" style="width:128px;" alt="Vino">
+                        </abbr>
+                    </a>
+
+                    <a href="./bebidas/cerveza.html">
+                        <abbr title="Cerveza">
+                            <img src="images/cerveza.jpg" style="width: 128px;" alt="Cerveza">
+                        </abbr>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
 
-    <div class="informacion">
-        <strong>Horario del comedor</strong>
-        <div>
-            <ul>
-                <li><strong>Martes a jueves:</strong> de 12:00 a 23:00</li>
-                <li><strong>Viernes, sábado, domingo y festivos:</strong> de 12:00 a 2:00</li>
-                <li><strong>Lunes cerrado</strong></li>
-            </ul>
+    <footer>
+        <div class="informacion">
+            <h3>Horario del comedor</h3>
+                <strong>Martes a jueves:</strong> de 12:00 a 23:00 <br>
+                <strong>Viernes, sábado, domingo y festivos:</strong> de 12:00 a 2:00 <br>
+                <strong>Lunes cerrado.</strong> <br>
         </div>
-    </div>
-    <div class="contacto">
-        <strong>Contacto</strong>
-        <div>
-            <ul>
-                <li><strong>Dirección:</strong> Calle falsa 123</li>
-                <li><strong>Pedidos:</strong> 905 123 456</li>
-            </ul>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <address>
+                <strong>Dirección:</strong> <a href="https://maps.app.goo.gl/ryMGXuVdvh96WkQYA" target="_blank"">Calle falsa 123</a><br>
+                <strong>Reservas:</strong> <a href="tel:+34905123456">905 123 456</a>
+            </address>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
